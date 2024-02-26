@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Custom_message">
+
+    <!-- TODO: Update blank fragment layout -->
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:startIconTint="@color/purple_700"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        app:errorEnabled="true"
+        app:hintAnimationEnabled="true"
+        android:textColorHint="@color/purple_700"
+        app:endIconMode="clear_text"
+        app:endIconTint="@color/purple_700"
+        android:layout_marginTop="10dp"
+        android:hint="Type or Paste Custom Message">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/msg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+</FrameLayout>
